@@ -13,14 +13,14 @@ public class MyClass {
          */
 
         // byte 8- bit
-        byte age = 30;
+        byte age = 127;
         System.out.println(age);
 
         // short 16-bit
         short currentYear = 2025;
         short temperature = -273;
         short distance = 1600;
-
+        System.out.println(distance);
 
         // int 32-bit
         int score = 9000;
@@ -37,7 +37,7 @@ public class MyClass {
 
 
         //float 32-bit
-        float pi = 3.4f;
+        float pi = 3.14f;
         float piNumber = (float) Math.PI; //casting
         float discount = 25.5f;
 
@@ -45,6 +45,10 @@ public class MyClass {
         double accountBalance = 999999.9999997777;
         double squareRoot = Math.sqrt(2);
         System.out.println(squareRoot);
+        double piDouble = Math.PI;
+
+        System.out.println(pi);
+        System.out.println(piDouble);
 
 
         // char (symbol)
@@ -56,10 +60,15 @@ public class MyClass {
         char smiley = '\u263A';
         System.out.println(smiley);
 
+
+        String cool = "\uD83D\uDE0E";
+        System.out.println(cool);
+
         //boolean (true/false)
         boolean isJavaFun = true;
         boolean isTired = true;
         boolean passed = (40 > 60); //false
+        System.out.println(passed);
 
 
 
